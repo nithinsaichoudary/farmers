@@ -1,0 +1,259 @@
+body{
+    background-image: linear-gradient(to right, #609A57, #B0FFA3);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav {
+    background-color: transparent;
+    color: #000000;
+    padding: 10px 0;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background-color: #06373a53;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.doactive{
+    background-color: #06373A;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.logo-container{
+    width: 550px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.coloumn-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.coloumn-items h1{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    font-weight: 600;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.coloumn-items button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 100px;
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+.coloumn-items button:hover{
+    background-color: #000000cb;
+}
+.home-image-1{
+    margin-left: 50px;
+    width: 30%; /* Adjust this value as needed */
+    height: auto; /* Adjust this value as needed */
+    margin-right: 100px;
+}
+.home-image-1 img{
+    width: 100%;
+    height: auto;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.container-2 h1{
+    font-size: 30px;
+    color: #000000;
+
+    margin-left: 100px;
+    font-weight: 600;
+    width: 600px;
+}
+.video1{
+    margin-bottom: 50px;
+    margin-left: 100px;
+    
+}
+
+.video1 video{
+    width: 1500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.container-3 img{
+    width: 1500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.market{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.market h1{
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.market p{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.market-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.market-items img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px){
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .coloumn-items h1{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .coloumn-items button{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .home-image-1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container-2 h1{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 300px;
+    }
+    .video1 video{
+        width: 300px;
+        height: auto;
+    }
+    .container-3 img{
+        width: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .market h1{
+        font-size: 20px;
+    }
+    .market p{
+        font-size: 15px;
+    }
+    .market-items img{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 425px){
+    .coloumn-items h1{
+        font-size: 20px;
+    }
+    .coloumn-items button{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .container-2 h1{
+        font-size: 15px;
+        width: 200px;
+    }
+    .video1 video{
+        width: 200px;
+        height: auto;
+    }
+    .container-3 img{
+        width: 200px;
+    }
+    .market h1{
+        font-size: 15px;
+    }
+    .market p{
+        font-size: 10px;
+    }
+    .market-items img{
+        width: 150px;
+    }
+}
